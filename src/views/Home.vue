@@ -1,45 +1,65 @@
 <template>
   <div>
-    <!-- Home Sec -->
-    <section id="home" class="hero is-white is-fullheight">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <div class="columns">
-            <div class="column is-half is-offset-one-quarter">
-              <h1 class="subtitle is-2 has-text-weight-light" v-html="contents.headline"></h1>
-              <h3
-                class="subtitle is-3 has-text-justified has-text-weight-light"
-                v-html="contents.body"
-              ></h3>
-              <h4 class="subtitle is-4 has-text-weight-light" v-html="contents.byline"></h4>
+    <div v-if="isEmpty(contents)">
+      <section id="home" class="hero is-white is-fullheight">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns">
+              <div class="column is-half is-offset-one-quarter">
+                <h1 class="subtitle is-2 has-text-weight-light" v-html="contents.headline"></h1>
+                <h3
+                  class="subtitle is-3 has-text-justified has-text-weight-light"
+                  v-html="contents.body"
+                ></h3>
+                <h4 class="subtitle is-4 has-text-weight-light" v-html="contents.byline"></h4>
+              </div>
             </div>
-          </div>
-          <div class="columns is-centered">
-            <div class="column is-2">
-              <a
-                class="button is-medium is-success"
-                target="_blank"
-                :href="'https://hjaltes-impartial-elephant.s1.umbraco.io/' + contents.cV"
-              >CV</a>
-            </div>
-            <div class="column is-2">
-              <a class="button is-medium is-info" href="#contact">Kontakt</a>
+            <div class="columns is-centered">
+              <div class="column is-2">
+                <a
+                  class="button is-medium is-success"
+                  target="_blank"
+                  :href="'https://hjaltes-impartial-elephant.s1.umbraco.io/' + contents.cV"
+                >CV</a>
+              </div>
+              <div class="column is-2">
+                <a class="button is-medium is-info" href="#contact">Kontakt</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <ProjectGrid :projects="projects"/>
-    <Foot
-      :facebook="contents.facebook"
-      :twitter="contents.twitter"
-      :linkedin="contents.linkedIn"
-      :github="contents.gitHub"
-      :instagram="contents.instagram"
-      :headline="contents.footerHeadline"
-      :body="contents.footerBody"
-      :copyright="contents.copyright"
-    />
+      </section>
+      <ProjectGrid :projects="projects"/>
+      <Foot
+        :facebook="contents.facebook"
+        :twitter="contents.twitter"
+        :linkedin="contents.linkedIn"
+        :github="contents.gitHub"
+        :instagram="contents.instagram"
+        :headline="contents.footerHeadline"
+        :body="contents.footerBody"
+        :copyright="contents.copyright"
+      />
+    </div>
+    <div v-else>
+      <section id="home" class="hero is-white is-fullheight">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns">
+              <div class="column is-half is-offset-one-quarter">
+                <h1 class="subtitle is-2 has-text-weight-light">Der var et problem med at hente data</h1>
+                <h3
+                  class="subtitle is-3 has-text-justified has-text-weight-light"
+                >Så tjek konsollen - eller vend tilbage en anden dag!</h3>
+                <h4
+                  class="subtitle is-4 has-text-weight-light"
+                >Skal du bare have fat i mig? Send en mail på hej@hjaltedaniel.io</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -65,6 +85,14 @@ export default {
     HeadlessService.GetProjects().then(data => {
       this.projects = data.results;
     });
+  },
+  methods: {
+    isEmpty: function(obj) {
+      for (var key in obj) {
+        if (obj.hasOwnProperty(key)) return true;
+      }
+      return false;
+    }
   }
 };
 </script>
