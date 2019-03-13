@@ -1,10 +1,10 @@
 import UmbracoHeadless from 'umbraco-headless'
 
 const headlessService = new UmbracoHeadless.HeadlessService({
-    url: "https://hjaltes-impartial-elephant.s1.umbraco.io",
+    url: "/api",
     username: "hej@hjaltedaniel.io",
     password: "IsQuiz5443!!",
-    imageBaseUrl: "https://hjaltes-impartial-elephant.s1.umbraco.io"
+    imageBaseUrl: "/api"
 })
 
 export default {
