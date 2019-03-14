@@ -21,8 +21,8 @@
           <a style="padding-right: 0.5em " target="_blank" :href="github">
             <i class="fab fa-github fa-2x"></i>
           </a>
-          <a style="padding-right: 0.5em " target="_blank" :href="facebook">
-            <i class="fab fa-facebook fa-2x"></i>
+          <a style="padding-right: 0.5em " target="_blank" :href="twitter">
+            <i class="fab fa-twitter fa-2x"></i>
           </a>
           <a style="padding-right: 0.5em " target="_blank" :href="instagram">
             <i class="fab fa-instagram fa-2x"></i>

@@ -5,7 +5,7 @@
         <!-- 1st line -->
         <div class="columns is-multiline">
           <template v-for="project in projects">
-            <SingleProject :project="project" :key="project.id"/>
+            <SingleProject :projects="project" :key="project.id"/>
           </template>
         </div>
       </div>

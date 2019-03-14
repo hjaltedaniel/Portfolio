@@ -80,10 +80,10 @@ export default {
   },
   created() {
     HeadlessService.GetRoot().then(data => {
-      this.contents = data;
+      this.contents = data.data._embedded.content[0].properties;
     });
     HeadlessService.GetProjects().then(data => {
-      this.projects = data.results;
+      this.projects = data.data._embedded.content;
     });
   },
   methods: {

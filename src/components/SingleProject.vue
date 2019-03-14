@@ -2,7 +2,7 @@
   <div class="column is-one-third">
     <div class="card">
       <header class="card-header">
-        <p class="card-header-title">{{ project.name }}</p>
+        <p class="card-header-title">{{ project.headline }}</p>
         <span class="card-header-tags">
           <span
             :class="'tag' + ' ' + skill.urlName"
@@ -48,10 +48,13 @@
 
 <script>
 export default {
-  props: ["project"],
+  props: ["projects"],
   computed: {
     sortedSkills: function() {
       return require("lodash").orderBy(this.project.skills, "name");
+    },
+    project: function() {
+      return this.projects.properties;
     }
   }
 };
