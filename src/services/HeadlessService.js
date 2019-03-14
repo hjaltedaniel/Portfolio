@@ -1,9 +1,8 @@
-import UmbracoHeadless from 'umbraco-headless'
+import axios from "axios"
 
-const headlessService = new UmbracoHeadless.HeadlessService({
-    url: window.location.href,
-    username: "hej@hjaltedaniel.io",
-    password: "IsQuiz5443!!",
+const apiClient = axios.create({
+    baseURL: `https://hjaltes-impartial-elephant.s1.umbraco.io/umbraco/rest/v1/content/published`,
+    withCredentials: false,
     headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
@@ -11,11 +10,10 @@ const headlessService = new UmbracoHeadless.HeadlessService({
 })
 
 export default {
-    async GetRoot() {
-        return await headlessService.getById(1085);
+    GetRoot() {
+        return apiClient.get("/")
     },
-    async GetProjects() {
-        let root = await headlessService.getById(1089);
-        return await headlessService.getChildren(root);
+    GetProjects() {
+        return apiClient.get('/aa37a913-14ee-4545-855d-178c2ecdb2ad/children')
     }
 }
