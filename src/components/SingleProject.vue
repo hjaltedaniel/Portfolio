@@ -134,6 +134,10 @@ export default {
   background-color: $phpColor;
   color: $white;
 }
+.bulma {
+  background-color: $bulmaColor;
+  color: $white;
+}
 
 //Different category tags
 .studieprojekt {
@@ -142,6 +146,11 @@ export default {
 }
 .arbejde {
   background-color: $arbejdeColor;
+  color: $white;
+}
+
+.sideprojekt {
+  background-color: $red;
   color: $white;
 }
 </style>
