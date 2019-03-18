@@ -74,12 +74,14 @@ export default {
 }
 
 .card-header {
-  &-title {
-    margin-right: 10px;
-  }
+  min-height: 72px;
+  padding-right: 6px;
   &-tags {
     text-align: right;
     align-self: center;
+    .tag {
+      margin: 3px;
+    }
   }
 }
 
@@ -87,6 +89,10 @@ export default {
   &:hover {
     text-decoration: underline;
   }
+}
+
+.card-content {
+  min-height: 600px;
 }
 
 //Different skills tags

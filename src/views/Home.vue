@@ -3,14 +3,14 @@
     <div v-if="isEmpty(contents)">
       <section id="home" class="hero is-white is-fullheight">
         <div class="hero-body">
-          <div class="container has-text-centered">
+          <div class="container">
             <div class="columns">
               <div class="column is-half is-offset-one-quarter">
-                <h1 class="subtitle is-2 has-text-weight-light" v-html="contents.headline"></h1>
-                <h3
-                  class="subtitle is-3 has-text-justified has-text-weight-light"
-                  v-html="contents.body"
-                ></h3>
+                <h1
+                  class="subtitle has-text-centered is-2 has-text-weight-light"
+                  v-html="contents.headline"
+                ></h1>
+                <h3 class="subtitle is-3 has-text-weight-light" v-html="contents.body"></h3>
                 <h4 class="subtitle is-4 has-text-weight-light" v-html="contents.byline"></h4>
               </div>
             </div>
@@ -20,10 +20,10 @@
                   class="button is-medium is-success"
                   target="_blank"
                   :href="'https://hjaltes-impartial-elephant.s1.umbraco.io/' + contents.cV"
-                >CV</a>
+                >Se mit CV</a>
               </div>
               <div class="column is-2">
-                <a class="button is-medium is-info" href="#contact">Kontakt</a>
+                <a class="button is-medium is-info" href="#contact">Kontakt mig</a>
               </div>
             </div>
           </div>
