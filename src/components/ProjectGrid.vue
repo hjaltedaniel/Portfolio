@@ -45,7 +45,7 @@ export default {
         active: false,
         category: null
       },
-      filteredProjects: [{}]
+      filteredProjects: []
     };
   },
   computed: {
@@ -81,6 +81,7 @@ export default {
     removeFilter: function() {
       this.filter.active = false;
       this.filter.category = null;
+      this.filteredProjects = [];
     }
   }
 };
