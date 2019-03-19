@@ -6,10 +6,7 @@
           <div class="container">
             <div class="columns">
               <div class="column is-half is-offset-one-quarter">
-                <h1
-                  class="subtitle has-text-centered is-2 has-text-weight-light"
-                  v-html="contents.headline"
-                ></h1>
+                <h1 class="subtitle is-2 has-text-weight-light" v-html="contents.headline"></h1>
                 <h3 class="subtitle is-3 has-text-weight-light" v-html="contents.body"></h3>
                 <h4 class="subtitle is-4 has-text-weight-light" v-html="contents.byline"></h4>
               </div>
