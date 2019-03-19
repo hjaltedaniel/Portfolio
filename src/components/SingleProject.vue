@@ -23,6 +23,7 @@
                 :class="'tag' + ' ' + cat.urlName"
                 v-for="cat in project.category"
                 :key="cat.id"
+                @click="GetCategoryItems(cat.urlName)"
               >{{ cat.name }}</a>
             </div>
           </div>
@@ -55,6 +56,11 @@ export default {
     },
     project: function() {
       return this.projects.properties;
+    }
+  },
+  methods: {
+    GetCategoryItems: function(category) {
+      this.$emit("get-category", category);
     }
   }
 };
@@ -92,7 +98,7 @@ export default {
 }
 
 .card-content {
-  min-height: 600px;
+  min-height: 560px;
 }
 
 //Different skills tags
