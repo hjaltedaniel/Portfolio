@@ -100,7 +100,9 @@ export default {
 }
 
 .card-content {
-  min-height: 560px;
+  @media screen and (min-width: 768px) {
+    min-height: 560px;
+  }
 }
 
 //Different skills tags
