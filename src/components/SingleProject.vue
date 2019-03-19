@@ -92,8 +92,10 @@ export default {
 }
 
 .card-footer-item {
+  color: $black;
   &:hover {
     text-decoration: underline;
+    color: $red;
   }
 }
 

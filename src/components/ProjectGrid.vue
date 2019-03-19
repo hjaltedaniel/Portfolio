@@ -1,6 +1,6 @@
 <template>
-  <section id="portfolio" class="hero is-white is-fullheight">
-    <div class="hero-body">
+  <section id="portfolio" class="is-white is-fullheight">
+    <div>
       <div class="container content-wrapper">
         <p class="filtering">
           Filtre:
