@@ -13,7 +13,8 @@
     "emojis": "^1.0.10",
     "lodash": "^4.17.11",
     "vue": "^2.6.6",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue2-smooth-scroll": "^1.0.5"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2",

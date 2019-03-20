@@ -23,6 +23,8 @@
                 :class="'tag' + ' ' + cat.urlName"
                 v-for="cat in project.category"
                 :key="cat.id"
+                href="/#portfolio"
+                v-smooth-scroll
                 @click="GetCategoryItems(cat.urlName)"
               >{{ cat.name }}</a>
             </div>
@@ -68,6 +70,9 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/scss/_vars.scss";
+.card {
+  transition: all 1s;
+}
 .tag {
   margin-right: 10px;
 }

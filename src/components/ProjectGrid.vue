@@ -17,16 +17,21 @@
             @click="filterProjects(cat.urlName)"
           >{{ cat.name }}</a>
         </p>
-        <div v-if="filter.active == false" class="columns is-multiline">
+        <transition-group
+          v-if="filter.active == false"
+          name="projects"
+          tag="div"
+          class="columns is-multiline"
+        >
           <template v-for="project in projects">
             <SingleProject :projects="project" @get-category="filterProjects" :key="project.id"/>
           </template>
-        </div>
-        <div v-else class="columns is-multiline">
+        </transition-group>
+        <transition-group v-else class="columns is-multiline" name="projects" tag="div">
           <template v-for="project in filteredProjects">
             <SingleProject :projects="project" @get-category="filterProjects" :key="project.id"/>
           </template>
-        </div>
+        </transition-group>
       </div>
     </div>
   </section>
@@ -98,5 +103,27 @@ export default {
     background-color: $black;
     color: $white;
   }
+}
+
+//Transition stuff
+
+.projects {
+  &-move {
+    transition: transform 0.4s;
+  }
+  &-leave-active {
+    position: absolute;
+  }
+  &-leave {
+    transition: all 0.4s;
+  }
+  &-enter-active {
+    transition: opacity 0.4s;
+    transition-delay: 0.2s;
+  }
+}
+
+.projects-enter, .projects-leave-to /* .list-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

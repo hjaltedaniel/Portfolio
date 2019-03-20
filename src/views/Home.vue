@@ -20,7 +20,7 @@
                 >Se mit CV</a>
               </div>
               <div class="column is-2">
-                <a class="button is-medium is-info" href="#contact">Kontakt mig</a>
+                <a class="button is-medium is-info" href="#contact" v-smooth-scroll>Kontakt mig</a>
               </div>
             </div>
           </div>
