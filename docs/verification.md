@@ -28,3 +28,5 @@ Existing Netlify project `hjaltedaniel` verified: production branch `master`, Gi
 ## Editorial review
 
 The three unpublished articles are available through `npm run dev` at `/blog/`. Review and approve each article before setting `published: true` and a real publication date. Site copy follows the approved personal biography and contact details.
+
+Netlify Deploy Preview #1 passed live HTTPS, canonical, routing, real 404, draft exclusion, sitemap/RSS and noindex header/robots checks. GitHub build/tests passed. Disabled the legacy preview collaboration drawer because its injected iframe conflicted with the site CSP; security policy retained.
