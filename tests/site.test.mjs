@@ -3,13 +3,13 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { readContent,renderPage,sitemap,rss } from '../src/site.mjs';
 const data=readContent();
-test('production excludes three drafts from all distribution surfaces',()=>{
- const drafts=readContent(true).posts;assert.equal(drafts.length,3);assert.equal(data.posts.length,0);
+test('production excludes drafts from all distribution surfaces',()=>{
+ const drafts=readContent(true).posts.filter(p=>!p.published);assert.ok(drafts.length > 0);assert.ok(data.posts.every(p=>p.published));
  for(const draft of drafts){assert.ok(!fs.existsSync('dist'+draft.slug+'index.html'));assert.ok(!sitemap(data).includes(draft.slug));assert.ok(!rss(data).includes(draft.slug));for(const page of data.pages)assert.ok(!renderPage(page,data).includes(draft.slug));}
  assert.doesNotMatch(rss({...data,posts:drafts}),/<item>/);
 });
 test('published articles have dates, author, canonical and feed entries; drafts are noindex',()=>{
- const draft=readContent(true).posts[0];assert.match(renderPage(draft,data),/noindex, nofollow/);
+ const draft=readContent(true).posts.find(p=>!p.published);assert.match(renderPage(draft,data),/noindex, nofollow/);
  const article={...draft,published:true,date:'2026-10-02'};const html=renderPage(article,{...data,posts:[article]});
  assert.match(html,/BlogPosting/);assert.match(html,/2026-10-02T00:00:00Z/);assert.match(html,/Hjalte Daniel Retz Johansson/);assert.match(rss({...data,posts:[article]}),/<item>/);assert.ok(sitemap({...data,posts:[article]}).includes(article.slug));
 });
