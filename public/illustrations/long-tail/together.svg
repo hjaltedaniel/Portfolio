@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="908" viewBox="0 0 640 908" role="img" aria-labelledby="title desc">
+<title id="title">A page combining curated messaging with discovery</title>
+<desc id="desc">A campaign-specific headline and advisory call to action form the curated frame. A separate module contains a dynamically selected guide and webinar. Editorial eligibility applies to both; the shared goal is a qualified next step.</desc>
+<rect x="0" y="0" width="640" height="908" rx="18" fill="#f4f1e9"/>
+<g font-family="Inter,Arial,sans-serif">
+<text x="32" y="44" font-size="17" fill="#b82b38" font-weight="600">03 / THE COMBINED EXPERIENCE</text>
+<text x="32" y="90" font-size="31" fill="#202521" font-weight="600">Curate the frame. Discover within it.</text>
+<text x="32" y="126" font-size="23" fill="#5d665f" font-weight="400">Two decisions supporting the same next step.</text>
+<rect x="32" y="157" width="576" height="590" rx="14" fill="white" stroke="#cfcfc1"/>
+<rect x="32" y="157" width="576" height="48" rx="14" fill="#202521"/>
+<circle cx="55" cy="181" r="4" fill="#f4f1e9"/>
+<circle cx="70" cy="181" r="4" fill="#f4f1e9"/>
+<circle cx="85" cy="181" r="4" fill="#f4f1e9"/>
+<text x="117" y="189" font-size="15" fill="white" font-weight="600">ILLUSTRATIVE KNOWLEDGE PORTAL</text>
+<rect x="54" y="226" width="230" height="34" rx="17" fill="#f6e0dd"/>
+<text x="68" y="250" font-size="17" fill="#b82b38" font-weight="600">EDITORIAL MESSAGE</text>
+<text x="54" y="300" font-size="32" fill="#202521" font-weight="600">Energy advice for</text>
+<text x="54" y="341" font-size="32" fill="#202521" font-weight="600">smaller manufacturers</text>
+<text x="54" y="381" font-size="22" fill="#5d665f" font-weight="400">Practical help for your next improvement.</text>
+<rect x="54" y="403" width="280" height="47" rx="7" fill="#b82b38"/>
+<text x="73" y="434" font-size="24" fill="white" font-weight="600">Talk to an adviser</text>
+<path d="M54 479L586 479" fill="none" stroke="#cfcfc1" stroke-width="2"/>
+<rect x="54" y="500" width="291" height="34" rx="17" fill="#deece6"/>
+<text x="68" y="524" font-size="17" fill="#245b59" font-weight="600">DISCOVERY SELECTS ITEMS</text>
+<text x="54" y="570" font-size="27" fill="#202521" font-weight="600">Practical next steps</text>
+<rect x="54" y="590" width="532" height="57" rx="8" fill="#deece6"/>
+<text x="68" y="611" font-size="13" fill="#245b59" font-weight="600">GUIDE</text>
+<text x="68" y="635" font-size="23" fill="#245b59" font-weight="600">Assess your production process</text>
+<rect x="54" y="656" width="532" height="57" rx="8" fill="#deece6"/>
+<text x="68" y="677" font-size="13" fill="#245b59" font-weight="600">WEBINAR</text>
+<text x="68" y="701" font-size="23" fill="#245b59" font-weight="600">Heat recovery in practice</text>
+<text x="32" y="790" font-size="24" fill="#b82b38" font-weight="600">Editors set purpose and eligibility.</text>
+<text x="32" y="827" font-size="24" fill="#245b59" font-weight="600">Discovery chooses relevant resources.</text>
+<text x="32" y="873" font-size="27" fill="#202521" font-weight="600">Shared goal: a qualified next step.</text>
+</g>
+</svg>

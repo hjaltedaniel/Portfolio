@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="710" viewBox="0 0 640 710" role="img" aria-labelledby="title desc">
+<title id="title">Curated personalization: two deliberately chosen experiences</title>
+<desc id="desc">An editorial decision assigns a message and call to action to each audience. Manufacturers see energy cost advice; consultants see technical research. These are illustrative variants, not inferred identities.</desc>
+<rect x="0" y="0" width="640" height="710" rx="18" fill="#f4f1e9"/>
+<g font-family="Inter,Arial,sans-serif">
+<text x="32" y="44" font-size="17" fill="#b82b38" font-weight="600">01 / CURATED PERSONALIZATION</text>
+<text x="32" y="90" font-size="31" fill="#202521" font-weight="600">One editorial decision.</text>
+<text x="32" y="126" font-size="23" fill="#5d665f" font-weight="400">Different messages for defined audiences.</text>
+<rect x="32" y="158" width="576" height="88" rx="14" fill="#202521"/>
+<text x="54" y="193" font-size="16" fill="#b9d1c3" font-weight="600">THE EDITOR DEFINES</text>
+<text x="54" y="225" font-size="25" fill="white" font-weight="600">Audience + conditions + content variant</text>
+<path d="M320 246L320 272" fill="none" stroke="#b82b38" stroke-width="2"/>
+<path d="M172 272L468 272" fill="none" stroke="#b82b38" stroke-width="2"/>
+<path d="M172 272L172 301" fill="none" stroke="#b82b38" stroke-width="2"/>
+<path d="M468 272L468 301" fill="none" stroke="#b82b38" stroke-width="2"/>
+<rect x="40" y="300" width="260" height="34" rx="17" fill="#f6e0dd"/>
+<text x="54" y="324" font-size="17" fill="#b82b38" font-weight="600">MANUFACTURERS</text>
+<rect x="32" y="350" width="278" height="245" rx="12" fill="white" stroke="#cfcfc1"/>
+<rect x="50" y="370" width="242" height="10" rx="5" fill="#f4f1e9"/>
+<text x="50" y="423" font-size="27" fill="#202521" font-weight="600">Lower your</text>
+<text x="50" y="459" font-size="25" fill="#202521" font-weight="600">energy costs</text>
+<rect x="50" y="486" width="221" height="5" rx="2" fill="#cfcfc1"/>
+<rect x="50" y="501" width="186" height="5" rx="2" fill="#cfcfc1"/>
+<rect x="50" y="531" width="242" height="42" rx="6" fill="#b82b38"/>
+<text x="62" y="559" font-size="18" fill="white" font-weight="600">Explore practical advice</text>
+<rect x="338" y="300" width="260" height="34" rx="17" fill="#f6e0dd"/>
+<text x="352" y="324" font-size="17" fill="#b82b38" font-weight="600">CONSULTANTS</text>
+<rect x="330" y="350" width="278" height="245" rx="12" fill="white" stroke="#cfcfc1"/>
+<rect x="348" y="370" width="242" height="10" rx="5" fill="#f4f1e9"/>
+<text x="348" y="423" font-size="27" fill="#202521" font-weight="600">Build your</text>
+<text x="348" y="459" font-size="25" fill="#202521" font-weight="600">technical knowledge</text>
+<rect x="348" y="486" width="221" height="5" rx="2" fill="#cfcfc1"/>
+<rect x="348" y="501" width="186" height="5" rx="2" fill="#cfcfc1"/>
+<rect x="348" y="531" width="242" height="42" rx="6" fill="#b82b38"/>
+<text x="360" y="559" font-size="18" fill="white" font-weight="600">Explore research</text>
+<text x="32" y="641" font-size="25" fill="#202521" font-weight="600">You choose what each audience sees.</text>
+<text x="32" y="677" font-size="22" fill="#5d665f" font-weight="400">Useful for a deliberate message or offer.</text>
+</g>
+</svg>
