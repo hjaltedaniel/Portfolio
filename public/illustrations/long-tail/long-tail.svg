@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="704" viewBox="0 0 640 704" role="img" aria-labelledby="title desc">
+<title id="title">A conceptual long tail of content discovery</title>
+<desc id="desc">A schematic popularity curve falls from a few frequently discovered resources into a long tail. A specialist guide in that tail may be highly relevant to a particular reader. No measured data or conversion uplift is shown.</desc>
+<rect x="0" y="0" width="640" height="704" rx="18" fill="#f4f1e9"/>
+<g font-family="Inter,Arial,sans-serif">
+<text x="32" y="44" font-size="17" fill="#b82b38" font-weight="600">THE LONG TAIL</text>
+<text x="32" y="90" font-size="31" fill="#202521" font-weight="600">Low visibility can hide high relevance.</text>
+<text x="32" y="126" font-size="23" fill="#5d665f" font-weight="400">Popularity and usefulness answer different questions.</text>
+<path d="M67 170L67 451" fill="none" stroke="#202521" stroke-width="2"/>
+<path d="M67 451L594 451" fill="none" stroke="#202521" stroke-width="2"/>
+<text x="82" y="190" font-size="19" fill="#5d665f" font-weight="400">More frequently discovered</text>
+<path d="M83 222C117 222 111 359 190 387S376 423 578 430L578 451H83Z" fill="#deece6"/>
+<path d="M83 222C117 222 111 359 190 387S376 423 578 430" fill="none" stroke="#245b59" stroke-width="4"/>
+<circle cx="454" cy="424" r="8" fill="#b82b38"/>
+<path d="M454 414L454 284" fill="none" stroke="#b82b38" stroke-width="2" stroke-dasharray="5 6"/>
+<rect x="303" y="212" width="289" height="73" rx="10" fill="#f6e0dd"/>
+<text x="320" y="241" font-size="23" fill="#b82b38" font-weight="600">A specialist guide</text>
+<text x="320" y="270" font-size="20" fill="#b82b38" font-weight="400">for one specific problem</text>
+<text x="68" y="487" font-size="20" fill="#245b59" font-weight="600">Popular resources</text>
+<text x="391" y="487" font-size="20" fill="#b82b38" font-weight="600">The long tail</text>
+<rect x="32" y="527" width="576" height="103" rx="14" fill="#202521"/>
+<text x="54" y="566" font-size="16" fill="#b9d1c3" font-weight="600">FOR THIS READER</text>
+<text x="54" y="603" font-size="23" fill="white" font-weight="500">The specialist guide may be the bridge to action.</text>
+<text x="32" y="670" font-size="20" fill="#5d665f" font-weight="400">Conceptual illustration. No measured data.</text>
+</g>
+</svg>

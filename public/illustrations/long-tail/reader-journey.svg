@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="873" viewBox="0 0 640 873" role="img" aria-labelledby="title desc">
+<title id="title">A possible reader journey with a choice of next steps</title>
+<desc id="desc">A visitor arrives through a manufacturer campaign, explores heat recovery and receives relevant resources. They may register for a webinar or continue reading. A later advisory enquiry is possible, not guaranteed.</desc>
+<rect x="0" y="0" width="640" height="873" rx="18" fill="#f4f1e9"/>
+<g font-family="Inter,Arial,sans-serif">
+<text x="32" y="44" font-size="17" fill="#b82b38" font-weight="600">A POSSIBLE READER JOURNEY</text>
+<text x="32" y="90" font-size="31" fill="#202521" font-weight="600">Offer a way forward. Keep the choice.</text>
+<text x="32" y="126" font-size="23" fill="#5d665f" font-weight="400">An illustrative journey, not a guaranteed funnel.</text>
+<circle cx="60" cy="184" r="26" fill="#b82b38"/>
+<text x="44" y="192" font-size="22" fill="white" font-weight="600">01</text>
+<text x="104" y="166" font-size="15" fill="#b82b38" font-weight="600">ARRIVE</text>
+<rect x="104" y="180" width="504" height="90" rx="10" fill="#f6e0dd"/>
+<text x="120" y="214" font-size="23" fill="#202521" font-weight="600">Campaign for smaller manufacturers</text>
+<text x="120" y="248" font-size="20" fill="#5d665f" font-weight="400">Curated message sets the context.</text>
+<path d="M60 211L60 276" fill="none" stroke="#b82b38" stroke-width="2"/>
+<circle cx="60" cy="329" r="26" fill="#245b59"/>
+<text x="44" y="337" font-size="22" fill="white" font-weight="600">02</text>
+<text x="104" y="311" font-size="15" fill="#245b59" font-weight="600">EXPLORE</text>
+<rect x="104" y="325" width="504" height="90" rx="10" fill="#deece6"/>
+<text x="120" y="359" font-size="23" fill="#202521" font-weight="600">Guide + case study on heat recovery</text>
+<text x="120" y="393" font-size="20" fill="#5d665f" font-weight="400">Observed interest can inform discovery.</text>
+<path d="M60 356L60 421" fill="none" stroke="#245b59" stroke-width="2"/>
+<circle cx="60" cy="474" r="26" fill="#245b59"/>
+<text x="44" y="482" font-size="22" fill="white" font-weight="600">03</text>
+<text x="104" y="456" font-size="15" fill="#245b59" font-weight="600">CHOOSE</text>
+<rect x="104" y="470" width="504" height="90" rx="10" fill="#deece6"/>
+<text x="120" y="504" font-size="23" fill="#202521" font-weight="600">Technical guide or relevant webinar</text>
+<text x="120" y="538" font-size="20" fill="#5d665f" font-weight="400">Useful resources support a decision.</text>
+<path d="M60 501L60 616" fill="none" stroke="#245b59" stroke-width="2"/>
+<path d="M60 616L470 616" fill="none" stroke="#245b59" stroke-width="2"/>
+<path d="M205 616L205 640" fill="none" stroke="#245b59" stroke-width="2"/>
+<path d="M470 616L470 640" fill="none" stroke="#245b59" stroke-width="2"/>
+<rect x="32" y="640" width="316" height="114" rx="14" fill="#202521"/>
+<text x="50" y="676" font-size="16" fill="#b9d1c3" font-weight="600">TAKE ACTION</text>
+<text x="50" y="711" font-size="23" fill="white" font-weight="600">Register for the webinar</text>
+<text x="50" y="738" font-size="17" fill="white" font-weight="400">Primary conversion for this test</text>
+<rect x="365" y="640" width="243" height="114" rx="12" fill="white" stroke="#cfcfc1"/>
+<text x="383" y="676" font-size="16" fill="#245b59" font-weight="600">KEEP EXPLORING</text>
+<text x="383" y="711" font-size="22" fill="#202521" font-weight="600">Read another guide</text>
+<text x="383" y="738" font-size="18" fill="#5d665f" font-weight="400">A valid visitor choice</text>
+<text x="32" y="800" font-size="24" fill="#202521" font-weight="600">Later: an advisory enquiry may follow.</text>
+<text x="32" y="838" font-size="21" fill="#5d665f" font-weight="400">Measure the outcome. Do not assume the journey.</text>
+</g>
+</svg>
