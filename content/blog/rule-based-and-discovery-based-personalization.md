@@ -1,7 +1,7 @@
 ---
-title: "Personalization needs to scale beyond your most popular content"
-description: Why making visitors feel understood takes more than content variants, and how discovery can make a growing Umbraco content library useful to each visit.
-slug: unlocking-the-long-tail
+title: "Stronger together: rule-based and discovery-based personalization"
+description: How rule-based personalization in Umbraco Engage and discovery-based resource selection can complement each other to make visitors feel understood at scale.
+slug: rule-based-and-discovery-based-personalization
 date: 2026-11-15
 updated: 2026-11-16
 published: true
@@ -12,7 +12,7 @@ A website can have hundreds of useful articles and still behave as though it onl
 
 The homepage promotes a handful. The navigation makes room for the main categories. Editors link to the pieces they know best. Somewhere underneath all that sits a detailed guide that would answer a visitor's exact question, if only they could find it.
 
-The promise of personalization is strong: a website that responds to what matters to you and makes you feel understood. In my experience, few organisations deliver on that promise consistently. A different headline for your segment is a start. Finding the guide that answers the question you are struggling with is where that promise becomes tangible.
+The promise of personalization is strong: a website that responds to what matters to you and makes you feel understood. In my experience, few organisations deliver on that promise consistently. A message that recognises your situation and a guide that answers your specific question can both make that promise tangible. The strongest experience connects the two.
 
 Having worked at Umbraco HQ and now working at Relewise, I keep coming back to the gap between that ambition and the work required to maintain it. When I spoke to ShoppingTomorrow in the Netherlands, I explored two decisions that often sit under the same personalization label: choosing a message for an audience, and choosing useful resources for an individual visit.
 
@@ -22,9 +22,9 @@ That distinction matters because the work scales differently. Editors can delibe
 
 But scale alone won't make someone feel understood. A ranking that keeps favouring popular content can leave the same twelve pages in front of everyone. The question is whether discovery can connect a specific need with something useful that the visitor would otherwise miss.
 
-For a content-rich Umbraco website, that's the personalization opportunity I would start with.
+For a content-rich Umbraco website, I'd combine deliberate editorial messaging with discovery that adapts the resource selection to the visit. **Rule-based personalization gives the experience direction. Discovery makes relevant selection practical across a growing library.**
 
-## Two different decisions
+## Rule-based and discovery-based personalization make different decisions
 
 Imagine running a large knowledge portal for businesses. You publish practical guides, research, case studies, webinars and information about your advisory services.
 
@@ -32,17 +32,23 @@ A visitor arrives from a campaign aimed at smaller manufacturers. You want the p
 
 That's **curated, rule-based personalization**. You decide which experience an audience should receive, and the system applies those decisions.
 
+Umbraco Engage provides a concrete example through its [segment-based personalization](https://docs.umbraco.com/umbraco-engage/marketers-and-editors/personalization). Editors define a segment and tailor the experience for it on a specific page, across multiple pages or by Document Type. On our portal, that could mean an introduction about energy costs for smaller manufacturers and an invitation to explore improvements relevant to their business.
+
+The editorial decision matters. You choose which challenges to acknowledge, how to explain your offer and which invitation fits that audience. Engage also supports implicit and explicit personalization, so rule-based doesn't mean ignoring behavior. The distinction is what the system is choosing: an editorially defined experience for the audience.
+
 ![Curated personalization: editors define an audience and rules, select a message and call to action, and deliver that experience to matching visitors.](/illustrations/long-tail/curated.svg)
 
 Now imagine that visitor reading about energy efficiency, searching for heat recovery and opening a technical case study. Which three articles should appear next? Which upcoming webinar would help? Should a practical checklist come before an invitation to speak to an adviser?
 
 That's the territory of **discovery-based personalization**: selecting and ranking relevant items from a larger pool using the context and signals available.
 
+Here, the team defines which resources are eligible and what a useful selection should achieve. The discovery layer chooses the individual items for the visit. A reader exploring heat recovery may need a different technical guide from someone exploring insulation, even if both belong to the same audience segment.
+
 ![Discovery-based personalization: current context and available behavioral signals inform the ranking of eligible articles, webinars and products, giving the visitor relevant next steps.](/illustrations/long-tail/discovery.svg)
 
 These decisions overlap: recommendations can be curated, and audience segments can use behavior. The distinction I find useful is **choosing the message for an audience versus prioritising individual resources for this visit**.
 
-| Practical question | Curated personalization | Discovery-based personalization |
+| Practical question | Curated, rule-based personalization | Discovery-based personalization |
 | --- | --- | --- |
 | What do we define? | Audiences, conditions and content variants | Eligible items, useful signals and ranking objectives |
 | What changes for the visitor? | A headline, offer, CTA or page experience | Which articles, products or resources appear, and in what order |
@@ -81,9 +87,9 @@ The campaign provides starting context; subsequent actions help refine the selec
 
 The same pattern works in commerce. A visitor reads a guide to growing vegetables on a balcony, explores compact planters, then finds advice on drainage alongside suitable accessories. The content helps them choose; the products give them a way to act. Those connections can be useful in both directions.
 
-## Curate the frame, personalise what fills it
+## Stronger together: curate the frame, personalise what fills it
 
-The two approaches can operate within the same page.
+This is where I think personalization becomes strongest: the message and the resource selection support each other on the same page.
 
 On our knowledge portal, an editor might create a campaign-specific introduction and a recommendation area labelled “Practical next steps for your business.” The editor defines the purpose of that area and the kinds of resources allowed inside it.
 
@@ -95,7 +101,9 @@ This is also where editorial control remains essential. An expired webinar shoul
 
 I'd give each decision a clear owner. The editor owns the message, the purpose of the recommendation area and any mandatory content. Eligibility rules enforce language, publication status and access. Ranking chooses among the remaining items. That makes conflicting behavior easier to explain and debug.
 
-In an Umbraco implementation, an editor could manage the campaign message while a discovery service selects resources inside the recommendation component. Each has a defined job, and the team can evaluate them separately.
+In an Umbraco implementation, an Engage-managed content variant could contain a recommendation component whose resources are selected by a discovery service. Engage shapes the message for the audience; discovery adapts the selection within that experience.
+
+For the manufacturer exploring heat recovery, the introduction can explain why the subject matters to a smaller business while the component offers a specialist guide and an upcoming webinar. The message makes the resources meaningful; the resources give the message a useful next step. That is the combined experience I'd aim for.
 
 ## What this looks like in an Umbraco implementation
 
@@ -150,6 +158,6 @@ For a first experiment, I'd bring an editor, a developer and the person responsi
 
 Choose one placement, agree on eligible resources and a dependable fallback, and measure registrations against a stable baseline. Check which resources receive attention as well as whether the registrations are useful. Expand from what you learn.
 
-The promise of personalization becomes credible when the experience responds to what someone is trying to do. Discovery gives us a way to make those connections across a growing library without asking editors to build every journey by hand.
+The promise of personalization becomes credible when the experience responds to what someone is trying to do. Rule-based personalization lets editors deliberately shape the message and invitation. Discovery connects that experience with relevant resources across a growing library, without asking editors to build every journey by hand. Together, they give us a practical way to make more visitors feel understood.
 
 The guide buried in your portal doesn't have to become your most popular page to earn its place. It needs to reach someone whose next decision it can help.
