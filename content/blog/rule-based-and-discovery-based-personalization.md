@@ -2,7 +2,7 @@
 title: "Stronger together: rule-based and discovery-based personalization"
 description: How rule-based personalization in Umbraco Engage and discovery-based resource selection can complement each other to make visitors feel understood at scale.
 slug: rule-based-and-discovery-based-personalization
-date: 2026-11-15
+date: 2026-11-16
 updated: 2026-11-16
 published: true
 ---
